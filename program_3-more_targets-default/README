@@ -1,0 +1,3 @@
+quando der make ele procura o default
+o default é o main.elf que tem dois prerequisite
+dai ele faz cada um dos prerequisite e só então faz o main.elf

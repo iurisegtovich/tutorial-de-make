@@ -1,0 +1,5 @@
+etiquetas que não correspondem a arquivos podem ser usadas para chamar o make tipo "make roda"
+uma etiqueta que não corresponde a aruivo sempre é executada
+a etiqueta .FORCE, sem receita,  pode ser usada como prerequisite para forçar certas etiquetas a rodarem
+se aparecer um arquivo com o nome da etiqueta o makefile quebra pois ele vai achar que esta tudo up to date
+o comando .PHONY do gnu make da segurança garantindo que nenhum arquivo .FORCE interfira em se a etiqueta .FORECE vai rodar ou não

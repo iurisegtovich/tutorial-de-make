@@ -1,0 +1,8 @@
+target = arquivo a se construir
+depois vem o prerequisite
+e aí vem a receita
+---
+ele compara a timestamp do alvo com o prerequisito
+só executa a recipe sé estiver desatualizado.
+
+make -B obriga a refazer mesmo com as timestamp dizendo que está 'up to date'

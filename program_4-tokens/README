@@ -1,0 +1,3 @@
+$< significa o nome do primeiro prerequisite
+$@ significa o nome do target
+$^ significa o nome de tooddoos os prerequisite
